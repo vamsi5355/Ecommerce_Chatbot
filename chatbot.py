@@ -259,8 +259,6 @@ def main():
     print(f"  Zero-Shot -> Relevance: {avg_z_rel} | Coherence: {avg_z_coh} | Helpfulness: {avg_z_hlp} | Overall: {avg_z_ovr}")
     print(f"  One-Shot  -> Relevance: {avg_o_rel} | Coherence: {avg_o_coh} | Helpfulness: {avg_o_hlp} | Overall: {avg_o_ovr}")
     print()
-    print("Next step: push to GitHub and submit.")
-
 
 if __name__ == "__main__":
     main()
